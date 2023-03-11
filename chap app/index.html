@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ichat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+</head>
+<body>
+<nav>
+        <img class="logo" src="chat.png" alt="img">
+        <h1>ichat</h1>
+</nav>
+<div class="container">
+    <!-- <div class="msg right">krishna:how are you radha?<span>2.00</span></div>
+    <div class="msg left">radha:i am fine krish, hpw are you</div> -->
+</div>
+<div class="send">
+    <form action="#" id="sendmsg" autocomplete="off">
+        <input type="text" name="text_msg" id="msginput" placeholder="Message">
+        <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+</div>
+</body>
+</html>
